@@ -1,4 +1,4 @@
-const NOTE_DETAILS = [
+const NOTE_DETAILS = [  // Common naming convention in JavaScript is to capitalize variables that don't change.
     { note: "C", key: "Z", frequency: 261.626 },
     { note: "Db", key: "S", frequency: 277.183 },
     { note: "D", key: "X", frequency: 293.665 },
@@ -12,3 +12,16 @@ const NOTE_DETAILS = [
     { note: "Bb", key: "J", frequency: 466.164 },
     { note: "B", key: "M", frequency: 493.883 }
   ]
+
+document.addEventListener("keydown", e => {
+
+    console.log("Down")
+    console.log(e)
+
+})
+
+document.addEventListener("keyup", e => {
+
+    console.log("Up")
+    console.log(e)
+})
