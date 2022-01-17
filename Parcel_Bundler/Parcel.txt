@@ -1,0 +1,11 @@
+https://parceljs.org/  
+
+package.json:
+
+"scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+}
+
+Notes: When Parcel builds your site it will get rid of all the extra spaces in your file to make the files smaller. 
+
